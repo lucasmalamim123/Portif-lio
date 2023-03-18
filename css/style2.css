@@ -1,8 +1,32 @@
 body{
-    background-image: url(../imagens/conectar.gif);
+    background-image: url(../imagens/fundo1.gif);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding-top: 10px;
   } 
+
+  .j-c-f-e{
+    justify-content: flex-end;
+  }
+
+  .btn-menu{
+    padding: 10px;
+    color: white;
+    margin-left: 15px;
+  }
+
+  .btn-menu:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .btn-menu:active{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+  }

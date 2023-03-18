@@ -1,6 +1,6 @@
 var btn = document.querySelector('#btn-avancar');
 var container = document.querySelector('.container')
-var tela = document.querySelector('.tela')
+var tela = document.querySelector(".tela")
 
 btn.addEventListener('click', function() {
     if(container.style.display === 'block'){
@@ -18,3 +18,4 @@ function avancar(){
         window.location.href = "segundaTela.html"
     }
 }
+

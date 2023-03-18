@@ -15,6 +15,8 @@ body{
     padding: 10px;
     color: white;
     margin-left: 15px;
+    background-color: transparent;
+    box-shadow: none;
   }
 
   .btn-menu:hover {
@@ -22,6 +24,8 @@ body{
     border-radius: 15px;
     color: black;
     text-decoration: none;
+    box-shadow: inset #ff0000;
+    font-weight: 700;
   }
 
   .btn-menu:active{
@@ -29,4 +33,20 @@ body{
     border-radius: 15px;
     color: black;
     text-decoration: none;
+  }
+
+  .font-size-7rem{
+    font-size: 7rem;
+  }
+
+  .text-align-center{
+    text-align: center;
+  }
+
+  .color-white{
+    color: white;
+  }
+  
+  .align-items-center{
+    align-items: center;
   }

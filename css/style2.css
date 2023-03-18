@@ -50,3 +50,11 @@ body{
   .align-items-center{
     align-items: center;
   }
+
+  .text-align-senter{
+    text-align: center;
+  }
+
+  .white{
+    color: white;
+  }

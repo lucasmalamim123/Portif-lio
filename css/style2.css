@@ -7,6 +7,50 @@ body{
     padding-top: 10px;
   } 
 
+  .img-programador{
+    transition:500ms;
+    height: 550px;
+  }
+
+  .img-programador:hover{
+    height: 560px;
+  }
+
+  .titulo{
+    transition: 500ms;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3rem;
+    animation:infinite;
+  }
+
+  .sub-titulo:hover {
+    transition: 500ms;
+    font-size: 2.6rem;
+  }
+  
+  .tamanho-logo{
+    transition: 500ms;
+    height: 131px;
+  }
+
+  .sub-titulo {
+    transition: 500ms;
+    font-size: 2.5rem;
+  }
+
+  .tamanho-logo:hover{
+    transition: 500ms;
+    height: 140px;
+  }
+
+  .titulo:hover{
+    font-size: 5rem;
+  }
+
+  .img-programador:hover {
+    filter: blur(2px);
+  }
+
   .j-c-f-e{
     justify-content: flex-end;
   }
@@ -17,9 +61,11 @@ body{
     margin-left: 15px;
     background-color: transparent;
     box-shadow: none;
+    height: 35px;
   }
 
   .btn-menu:hover {
+    transition: 500ms;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     color: black;
@@ -58,3 +104,43 @@ body{
   .white{
     color: white;
   }
+
+  .m-t-30{
+    margin-top: 30px!important;
+  }
+
+  .italic{
+    font-style: italic
+  }
+
+  .sobre{
+    display: block;
+  }
+
+  .j-f-c-c{
+    justify-content: center!important;
+  }
+
+  .footer{
+    width: 99%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+    .m-b-15 {
+      margin-bottom: 15px!important;
+    }
+
+    .img-footer {
+      height: 90px;
+      opacity: 50%;
+    }
+
+    .img-footer:hover{
+      transition: 500ms;
+      opacity: 100%;
+    }
+
+    

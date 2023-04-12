@@ -1,3 +1,4 @@
+
 body{
     background-image: url(../imagens/fundo1.gif);
     background-attachment: fixed;
@@ -20,7 +21,6 @@ body{
     transition: 500ms;
     font-family: 'Stick No Bills', sans-serif;
     font-size: 3rem;
-    animation:infinite;
   }
 
   .sub-titulo:hover {
@@ -141,6 +141,17 @@ body{
     .img-footer:hover{
       transition: 500ms;
       opacity: 100%;
+    }
+
+    #img-footer > title{
+      color: #ff0000;
+    }
+
+    .box-contato{
+      background-color: white;
+      width: 50%;
+      height: 25%;
+      border-radius: 15px;
     }
 
     

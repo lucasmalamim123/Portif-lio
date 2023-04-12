@@ -17,5 +17,5 @@ function avancar(){
     function tela(){
         window.location.href = "segundaTela.html"
     }
-}
+};
 

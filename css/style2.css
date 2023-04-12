@@ -97,9 +97,6 @@ body{
     align-items: center;
   }
 
-  .text-align-senter{
-    text-align: center;
-  }
 
   .white{
     color: white;
@@ -150,8 +147,35 @@ body{
     .box-contato{
       background-color: white;
       width: 50%;
-      height: 25%;
+      height: 10%;
       border-radius: 15px;
+      transition: 500ms;
+    }
+
+    .box-contato:hover{
+      height: 50%;
+      transition: 500ms;
+    }
+
+    #contato1{
+      transition: 1000ms;
+      display: none;
+    
+    }
+
+    #contato2{
+      transition: 1000ms;
+      display: none;
+    }
+
+    #box svg{
+      color: #000000;
+      width: 30px;
+      height: 30px;
+    }
+
+    .m-l-15p{
+      margin-left: 15%;
     }
 
     
